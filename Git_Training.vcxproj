@@ -75,10 +75,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Git_Training.cpp" />
+    <ClCompile Include="Val_cos.cpp" />
     <ClCompile Include="Val_rad.cpp" />
     <ClCompile Include="Val_sin.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Val_cos.h" />
     <ClInclude Include="Val_rad.h" />
     <ClInclude Include="Val_sin.h" />
   </ItemGroup>

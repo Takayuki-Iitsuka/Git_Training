@@ -4,9 +4,7 @@
 #include <cmath>
 #include "Val_rad.h"
 #include "Val_sin.h"
-
-const float MY_PI = 3.14159265;
-
+#include "Val_cos.h"
 
 int main(void)
 {
@@ -19,8 +17,8 @@ int main(void)
 	{
 		val_deg = i;
 		val_rad = Val_rad(i);
-		val_sin = Val_sin(i);
-		val_cos = std::cos(val_rad);
+		val_sin = Val_sin(val_rad);
+		val_cos = Val_cos(val_rad);
 
 		std::cout << val_deg << "度  " << val_rad << "[rad]  "
 			<< "sin : " << val_sin << "  "
