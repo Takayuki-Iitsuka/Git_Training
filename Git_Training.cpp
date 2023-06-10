@@ -3,14 +3,10 @@
 #include <iostream>
 #include <cmath>
 #include "Val_rad.h"
+#include "Val_sin.h"
 
 const float MY_PI = 3.14159265;
 
-float Val_sin(float num)
-{
-	float val = std::sin(num);
-	return val;
-}
 
 int main(void)
 {
