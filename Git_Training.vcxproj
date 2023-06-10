@@ -75,6 +75,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Git_Training.cpp" />
+    <ClCompile Include="Val_rad.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Val_rad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
